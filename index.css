@@ -3,6 +3,8 @@
 	margin: 0px;
 }
 
+.main__right-content {width: 100%;}
+
 .header__left-content {font-size: 16px;}
 
 .main__right-title-icon {color: #3F9599;}
@@ -35,7 +37,7 @@ i.fa-regular.fa-calendar.main__left-item-icon {}
 
 .main__left-item-icon {color: #328998;}
 
-li.main__right-item {margin-top: 10px;}
+li.main__right-item {margin-top: 10px;width: 100%;}
 
 .main__left-item-content {margin-top: 10px;}
 
@@ -45,15 +47,15 @@ li.main__left-description-item {margin-top: 10px;}
 
 .main__right-title-name {margin-left: 10px;}
 
-ul.main__right-list {list-style: none;}
+ul.main__right-list {list-style: none;width: 100%;margin: 0px;padding: 0px;}
 
-.main__right {font-size: 20px;margin-left: 24px;}
+.main__right {font-size: 20px;margin-left: 24px;width: 65%;}
 
 .main__right-title {display: flex;align-items: center;font-weight: bold;}
 
 ul.main__left-list {padding: 0px;}
 
-.main__left {width: 50%;}
+.main__left {width: 35%;}
 
 i.fa-solid.fa-location-dot.main__left-item-icon {}
 
@@ -73,7 +75,7 @@ li.main__left-item {list-style: none;display: flex;font-size: 20px;align-items: 
 
 main.main__left {width: calc(100% / 3 );background: #4CAC9D;color: white;}
 
-.main {width: 794px;margin: auto;display: flex;background: white;}
+.main {width: 100%;margin: auto;display: flex;background: white;}
 
 .header__left-name {font-size: 30px;}
 
